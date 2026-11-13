@@ -1,0 +1,2 @@
+﻿item_count,total_price,total_freight,mean_item_price,mean_item_freight,mean_distance_km,max_distance_km,distance_coverage,all_distances_missing,seller_count_items,seller_city_count,seller_state_count,category_count,purchase_year,purchase_month,purchase_dayofweek,purchase_hour,promised_delivery_days,customer_state,main_category
+1,137.04,22.78,137.04,22.78,600.0,600.0,1.0,0,1,1,1,1,2018,6,2,14,23.7,SP,beleza_saude

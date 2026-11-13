@@ -1,0 +1,15 @@
+# Python environments and caches
+.venv/
+.venv_*/
+venv/
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+
+# Raw Olist dataset and downloaded archives
+archive/
+archive.zip
+
+# Duplicate copies of model artifacts; app uses predictor/artifacts/
+olist_model_artifacts/
+olist_model_artifacts.zip

@@ -1,0 +1,40 @@
+{
+    "project_name": "Olist Late Delivery Predictor",
+    "model_name": "Tuned Random Forest",
+    "model_type": "Classification",
+    "target": "late_delivery",
+    "features": [
+        "item_count",
+        "total_price",
+        "total_freight",
+        "mean_item_price",
+        "mean_item_freight",
+        "mean_distance_km",
+        "max_distance_km",
+        "distance_coverage",
+        "all_distances_missing",
+        "seller_count_items",
+        "seller_city_count",
+        "seller_state_count",
+        "category_count",
+        "purchase_year",
+        "purchase_month",
+        "purchase_dayofweek",
+        "purchase_hour",
+        "promised_delivery_days",
+        "customer_state",
+        "main_category"
+    ],
+    "n_features": 20,
+    "thresholds": {
+        "balanced": 0.525668,
+        "high_recall": 0.333184
+    },
+    "validation_metrics": {
+        "average_precision": 0.1738,
+        "roc_auc": 0.7625,
+        "brier_score": 0.1095
+    },
+    "training_strategy": "Full Historical Training",
+    "created_at": "2026-11-06T13:58:59.259194"
+}
